@@ -7,7 +7,7 @@ async function create(req, res) {
             content: req.body.content,
             recepientEmail: req.body.recepientEmail
         })
-        console.log("from controller createTicket",response)
+        // console.log("from controller createTicket",response)
         return res.status(201).json(response);
     } catch (error) {
         return res.status(500).json(error)

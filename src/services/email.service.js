@@ -5,7 +5,7 @@ const ticketRepository = new TicketRepository();
 
 async function sendEmail(mailFrom, mailTo, subject, text) {
     try {
-        const response = await Mailer.sendEmail({
+        const response = await Mailer.sendMail({
             from: mailFrom,
             to: mailTo,
             subject: subject,
