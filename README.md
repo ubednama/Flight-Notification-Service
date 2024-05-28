@@ -6,6 +6,9 @@ The Flight Notification Service is designed to automatically send email notifica
 - RabbitMQ
 - Nodemailer
 
+## Installation
+Setup .env file and run the project with other microservices
+
 ## Usage
 Ensure RabbitMQ is running. You can start RabbitMQ using the following command:
 
